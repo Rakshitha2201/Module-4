@@ -31,12 +31,15 @@ To write a Python program to take the radius from the user and find the area of 
 # Reg.No: 212223060220
 # Name: Rakshitha M
 import math
-class umbrella:
-    def stationary(r):
-        return math.pi*r*r
-r=int(input())
-obj=umbrella
-print("Area of circle:",round(obj.stationary(r),2))
+class umberella:
+def rain(self, radius):
+    area = math.pi * radius ** 2  
+    return area 
+r= float(input())
+
+u = umbrella()
+
+print(f"Area of circle: {u.rain(r):.2f}")
 
 
 
